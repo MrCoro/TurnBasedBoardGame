@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>War Board Game</title>
+    <meta name="description" content="html war board game">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <div id="board" class="wrapper">
+          
+        </div>
+        
+
+        <div class="scoreboard">
+            <h2>Score Board</h2>
+            <h3 class="combat-engage">&nbsp;</h3>
+            
+            <div class="p1-dashboard">
+              <p>PLAYER 1 HP</p>
+              <div class="p1-hp-box">
+                <div class="p1-hp"></div>
+              </div>
+              <div class="p1-score">
+                <p>PLAYER 1 SCORE:</p> 
+                <p id="p1-number"></p>
+              </div>
+              <div class="battle-section">
+                <div class="button-section">
+                  <button class="p1-attack-button"><h5>ATTACK</h5></button>
+                  <button class="p1-defend-button"><h5>DEFEND</h5></button>
+                </div>
+                <div class="p1-equiped-weapon"></div>
+              </div>
+            </div>
+
+            <div class="p2-dashboard">
+              <p>PLAYER 2 HP</p>
+              <div class="p2-hp-box">
+                <div class="p2-hp"></div>
+              </div>
+              <div class="p2-score">
+                  <p>PLAYER 2 SCORE:</p>
+                  <p id="p2-number"></p>
+              </div>
+              <div class="battle-section">
+                  <div class="button-section">
+                    <button class="p2-attack-button"><h5>ATTACK</h5></button>
+                    <button class="p2-defend-button"><h5>DEFEND</h5></button>
+                  </div>
+                  <div class="p2-equiped-weapon"></div>
+              </div>
+            </div>
+            
+            <div class="restart-button" onclick="restart();"><h5>RESTART</h5></div>
+        </div>
+	<script src="app.js">
+
+  </script>	
+  </body>
+
+</html>
