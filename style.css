@@ -206,49 +206,49 @@ body {
 }
 
 .obstacle {
-  background-image: url('/asset/rock.png'), url('/asset/grass.png');
+  background-image: url('./asset/rock.png'), url('./asset/grass.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 60%, cover;
 }
 
 .player1{
-  background-image: url('/asset/player1.png'), url('/asset/grass.png');
+  background-image: url('./asset/player1.png'), url('./asset/grass.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%, cover;
 }
 
 .player2{
-  background-image: url('/asset/player2.png'), url('/asset/grass.png');
+  background-image: url('./asset/player2.png'), url('./asset/grass.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%, cover;
 }
 
 .knife {
-  background-image: url('/asset/knife.png'), url('/asset/grass.png');
+  background-image: url('./asset/knife.png'), url('./asset/grass.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70%, cover;
 }
 
 .axe {
-  background-image: url('/asset/axe.png'), url('/asset/grass.png');
+  background-image: url('./asset/axe.png'), url('./asset/grass.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%, cover;
 }
 
 .gun {
-  background-image: url('/asset/gun.png'), url('./asset/grass.png');
+  background-image: url('./asset/gun.png'), url('./asset/grass.png');
   background-repeat: no-repeat;
   background-position:center;
   background-size: 100%, cover;
 }
 
 .bazooka {
-  background-image:  url('/asset/bazooka.png'),url('/asset/grass.png');
+  background-image:  url('./asset/bazooka.png'),url('./asset/grass.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%, cover;
